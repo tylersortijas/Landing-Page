@@ -33,9 +33,9 @@ flex-direction: column;
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 0px 150px;
+    margin: 0px -120px;
 }
 
 .lower-header-title {
@@ -74,4 +74,45 @@ button {
     border-radius: 8px;
     color: #F9FAF8;
     border: none;
+}
+
+.friends-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.friend-img {
+    width: 160px;
+    height: 150px;
+    border-radius: 12px;
+    border: solid #3882f6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    width: auto;
+    padding: 150px 175px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.friend-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px;
+    padding: 130px;
+}
+
+.cards {
+    width: 250px;
+    text-align: center;
 }
