@@ -116,3 +116,12 @@ button {
     width: 250px;
     text-align: center;
 }
+
+.middle-section {
+    margin-top: -75px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 5px;
+}
